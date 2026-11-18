@@ -19,22 +19,22 @@ class SessionRecall < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/odinyu/session-recall/releases/download/v1.9.2/session-recall_/darwin-arm64.tar.gz"
+      url "https://github.com/odinyu/session-recall/releases/download/v1.9.2/session-recall_darwin-arm64.tar.gz"
       sha256 "359b8ff321a59e8a8a47caa06f6289cd41bfd374281e22f225da624890f2708e"
     end
     on_intel do
-      url "https://github.com/odinyu/session-recall/releases/download/v1.9.2/session-recall_/darwin-x64.tar.gz"
+      url "https://github.com/odinyu/session-recall/releases/download/v1.9.2/session-recall_darwin-x64.tar.gz"
       sha256 "5277aa9e21c9bb63e062778e67916b8f672446529d98867fe0054dac2b2d93d1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/odinyu/session-recall/releases/download/v1.9.2/session-recall_/linux-arm64.tar.gz"
+      url "https://github.com/odinyu/session-recall/releases/download/v1.9.2/session-recall_linux-arm64.tar.gz"
       sha256 "a6d66aa1a157b7781f3617bcb26c9eb4469e4166108820ec44c19c454e4c9c1f"
     end
     on_intel do
-      url "https://github.com/odinyu/session-recall/releases/download/v1.9.2/session-recall_/linux-x64.tar.gz"
+      url "https://github.com/odinyu/session-recall/releases/download/v1.9.2/session-recall_linux-x64.tar.gz"
       sha256 "452bf8e768925a271368614ee807a3f9a236556d69cd0a4fde3a5023b627a8e2"
     end
   end
